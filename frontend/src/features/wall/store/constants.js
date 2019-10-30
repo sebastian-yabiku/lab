@@ -1,0 +1,3 @@
+const SET_PUBLICATIONS = "[wall] SET_PUBLICATIONS";
+
+export { SET_PUBLICATIONS };

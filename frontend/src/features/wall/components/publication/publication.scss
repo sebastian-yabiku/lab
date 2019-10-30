@@ -1,0 +1,45 @@
+.publication {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+
+  &__header {
+    margin-bottom: 5px;
+
+    a {
+      color: #4167b2;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__footer {
+    border-top: 1px solid #dddfe2;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+
+  &__close {
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 19px;
+    width: 20px;
+    height: 20px;
+    background: #ececec;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background: #dedede;
+    }
+
+    &:active {
+      background: red;
+      color: white;
+    }
+  }
+}

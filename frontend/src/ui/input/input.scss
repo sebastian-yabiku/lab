@@ -1,0 +1,26 @@
+.input {
+  border: 1px solid #1d2a5b;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: #a5a5a5;
+  }
+
+  &--small {
+    padding: 5px;
+  }
+
+  &--block {
+    width: 100%;
+  }
+
+  &--form {
+    padding: 8px 10px;
+    font-size: 18px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+  }
+}

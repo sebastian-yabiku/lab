@@ -1,0 +1,25 @@
+.add-publication {
+  header,
+  footer {
+    padding: 8px;
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    font-weight: bold;
+  }
+
+  header {
+    border-radius: 4px 4px 0 0;
+  }
+
+  footer {
+    border-radius: 0 0 4px 4px;
+    border-top: none;
+  }
+
+  textarea {
+    border-top: none;
+    display: block;
+    resize: none;
+    height: 80px;
+  }
+}

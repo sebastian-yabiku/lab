@@ -1,0 +1,20 @@
+.select {
+  border: 1px solid #bdc7d8;
+  background: transparent;
+  
+  &:focus {
+    outline: none;
+  }
+
+  &--small {
+    height: 24px;
+  }
+
+  &--medium {
+    height: 38px;
+  }
+
+  &--block {
+    width: 100%;
+  }
+}
